@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+img{
+    vertical-align: top;
+}
+address,em,i{
+    font-style: normal;
+}
+button,label{
+    cursor:pointer;
+}
+.blind{
+    position:absolute;
+    top:-99999px;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:13px;
+    color:#333;
+}
+.clearFix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.skip>a{
+    position:absolute;
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #333;
+    color:white;
+    font-size: 20px;
+    top:-99999px;
+}
+.skip>a:focus{
+    top:0;
+}
+/* 여백제거 */
+/* list */
+/* a */
+/* img */
+/* 기울기 */
+/* cursor */
+/* blind */
+/* body */
+/* clearFix::after */
+/* skip */
